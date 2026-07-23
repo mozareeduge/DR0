@@ -1,0 +1,5 @@
+sources/pdfs/*
+!sources/pdfs/.gitkeep
+*.log
+.DS_Store
+node_modules/
