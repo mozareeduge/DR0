@@ -3,8 +3,14 @@
 1. Install Zotero (https://zotero.org) → Settings → Advanced → enable "Allow
    other applications on this computer to communicate with Zotero" (local
    API).
-2. Run `zotero-mcp setup` in a terminal and follow the prompts.
-3. Merge `docs/mcp.zotero.snippet.json` into `.mcp.json` under `mcpServers`.
+2. On your own computer (not a cloud/remote session), install the zotero-mcp
+   binary, then run setup:
+   ```
+   uv tool install "zotero-mcp-server[semantic]"
+   zotero-mcp setup
+   ```
+   Follow its prompts — it needs Zotero open locally to detect its API.
+3. Done — `.mcp.json` already has the `zotero` entry merged in.
 4. Optional: get a free Semantic Scholar API key
    (https://www.semanticscholar.org/product/api) and add it to `.mcp.json`:
    ```json

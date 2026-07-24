@@ -7,6 +7,10 @@
     "semantic-scholar": {
       "command": "uvx",
       "args": ["semantic-scholar-mcp"]
+    },
+    "zotero": {
+      "command": "zotero-mcp",
+      "args": ["serve"]
     }
   }
 }
