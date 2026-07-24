@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "papersflow": {
+      "type": "http",
+      "url": "https://doxa.papersflow.ai/mcp"
+    },
+    "semantic-scholar": {
+      "command": "uvx",
+      "args": ["semantic-scholar-mcp"]
+    },
+    "zotero": {
+      "command": "zotero-mcp",
+      "args": ["serve"]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "zotero": {
+    "command": "zotero-mcp",
+    "args": ["serve"]
+  }
+}
